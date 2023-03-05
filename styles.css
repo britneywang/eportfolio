@@ -1,0 +1,1017 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Underline under title */
+nav a {
+  text-decoration: none;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #FAF9F6;
+    height:100px;
+    width: 100%;
+    align-items: center;
+    font-family: 'EB Garamond';
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    opacity: 3;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0px 2px 12px 0px #b3d1f1;
+  }
+  
+
+nav ul {
+    color: black;
+    list-style-type: none;
+    display: flex;
+    margin-left: 10px;
+}
+
+nav ul li {
+    margin-right: 50px; /*change this to add more / less space between*/
+    font-size: 22px;
+
+}
+
+/* Nav bar - "Britney Wang" */
+.titleName {
+  font-family: 'EB Garamond';
+  /*font-style: italic;*/
+  font-size: 22px;
+  padding-left: 45px;
+  
+}
+nav a1 {
+  
+  font-style: italic;
+  font-size: 25px;
+
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(31, 49, 86);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(31, 49, 86);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(65, 101, 172);
+}
+
+
+/*---------------------------------------------------------------- HOME PAGE /*----------------------------------------------------------------*/
+
+
+/* Cover Text*/
+.container {
+    position: relative;
+    text-align: center;
+    color: f2f2f2;
+  }
+  
+.centered {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel', sans-serif;
+    text-align: center;
+    color: #f2f2f2;
+    letter-spacing: 15px;
+}
+    
+
+.centered h1 {
+    font-size: 20px;
+    color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+  .centered h2 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'EB Garamond';
+    line-height: 0.9;
+    font-weight: 100;
+  }
+
+/* Cover Photo */
+.CoverPhoto {
+  width: 100%;
+  height: 825px;
+}
+  
+/* Home & About Me Page */
+.home {
+    position: relative;
+    z-index: 1;
+}
+
+/* Container for about me + picture */
+.home div:not(.instagramHolder) {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f5f8;
+
+  /* -- Background Color Fish for section
+  line-height: 1.5;
+  background: url(Images/Fish2.png) no-repeat;
+  background-size: cover;
+  z-index: -5;
+  background-attachment: fixed;
+  */
+}
+
+/* Profile Picture */
+.ProfilePhoto {
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+}
+
+/* About me paragraph */
+.aboutme_holder p1{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* About me Title*/
+.aboutme_holder h2 {
+  font-size: 65px;
+  font-family: 'Eb garamond';
+  color: rgb(3, 13, 32);
+  text-align: left;
+  font-weight: lighter;
+}
+
+.aboutme_holder h3 {
+  font-family: 'open sans', san;
+  font-size: 15px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.aboutme_holder h17 {
+  font-family: 'open sans', san;
+  font-size: 13px;
+  font-style: italic;
+  text-decoration: none;
+
+}
+
+/* paragraph section 1 */
+.aboutme_1 {
+  padding: 80px;
+  text-align: left;
+}
+
+.aboutme_2 {
+  padding: 100px 50px 50px 50px;
+  text-align: center;
+}
+
+.InstagramIcon {
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  
+}
+
+
+/*---------------------------------------------------------------- ABOUT PAGE ----------------------------------------------------------------*/
+
+.aboutme_holder {
+  display: grid;
+  /* how many boxes in a row */
+  grid-template-columns: 1fr 1fr;
+  background-color: #999;
+}
+
+/* Cover Photo - text*/
+.aboutmeText h1 {
+  font-size: 50px;
+  font-family: 'open sans', san;
+}
+
+/* Cover Photo */
+.AboutMePhoto {
+  object-fit: cover;
+  width: 100%; 
+  height: 550px;
+  /* opacity: .9;
+  filter: saturate(120%); */
+}
+
+/* Cover Text */
+.aboutmeText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Cinzel';
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 25px;
+}
+
+/* Section Information*/
+.AboutMe_information {
+  /* padding: top right bottom left */
+  /* padding: top/bottom left/right */
+  height: 500px;
+  background-color: #99cdf5;
+  padding: 125px 150px 150px 125px;
+}
+
+/* About me -- title */
+.AboutMe_information h2 {
+  font-size: 35px;
+  font-family: none;
+}
+
+/* About Me -- paragraph */
+.AboutMe_information p1 {
+  font-size: 15px;
+  font-family: 'Sen', sans-serif;
+  line-height: 1.5;
+}
+
+
+.instagramHolder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  font-size: 10px;
+} 
+
+
+
+/*---------------------------------------------------------------- CONTACT PAGE ----------------------------------------------------------------*/
+.first_lastName {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.formCont1 {
+  width: 500px;
+  
+}
+.contact2 {
+    background: url(Images/Fish2.png) no-repeat;
+    background-size: cover;
+    z-index: -5;
+    background-attachment: fixed;
+}
+
+.contact h3 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+
+/* Contact Page */
+#contact {
+    background-color: #C5EAF8;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* (form) section titles (ex: first name, last name, etc...) */
+.contact label {
+  font-family: 'Handlee';
+  font-size: 20px;
+  font-weight: bold;
+
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #f2f2f2;
+  font-family: 'Handlee', cursive;
+
+}
+
+input[type=submit] {
+  background-color: #60bef9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* hover submit */
+input[type=submit]:hover {
+  background-color: #41a1dc;
+}
+
+/* Form Container Grid */
+.FormContainter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f2f2f2;
+    padding-bottom: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    box-shadow: 0 4px 8px 0 #236087, 0 6px 20px 0 #236087;
+
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 120px;
+}
+
+/* Footer */
+footer {
+  padding-top: 45px;
+  height: 155px;
+  width: 100%;
+  background-color: #a5dff4;
+  color: black;
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}
+
+.fa {
+  
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background:#a5dff4;
+  color: white;
+  height: 50px;
+  width:50px;
+  font-size: 50px;
+}
+
+.fa-instagram {
+  background: #a5dff4;
+  color: white;
+  height: 50px;
+  width:50px;
+}
+.fa-envelope {
+  background: #a5dff4;
+  color: white;
+  height: 50px;
+  width:50px;
+}
+
+
+/*---------------------------------------------------------------- PROJECTS PAGE ----------------------------------------------------------------*/
+
+/* THINGS NEED DONE 
+
+1. Center project cover
+2. After clicking the popup button, the page needs to stay fixed
+3. check projects h4 (fonts, etc.. not transferring)
+
+*/
+
+
+.centered_STARS{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f2f2f2;
+    letter-spacing: 0px;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+}
+
+.projects h3 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #f2f2f2;
+  padding-top: 100px;
+}
+
+
+.projects {
+    background: url(Images/ProjectPic2.png) no-repeat;
+    background-size: cover;
+    z-index: -5;
+    background-attachment: fixed;
+}
+          
+/* XXXXXX ------ deleted */
+.centered h3 {
+    font-size: 90px;
+    color: #f2f2f2;
+}
+
+.centered h5 {
+  font-size: 90px;
+  color: #f2f2f2;
+}
+
+/* box/div title */
+.projects h5 {
+    font-size: 30px;
+    font-family: 'Handlee', sans-serif;
+}
+
+/* box description (display) */
+.projects div p1 {
+    font-size: 15px;
+    font-family: 'Open sans', serif;
+    line-height: .1;
+}
+
+/* popup title */
+.popupFunction h3 {
+    font-size: 40px;
+    font-family: 'Handlee', cursive;
+    font-style: italic;
+    
+}
+
+/* popup subtitiles */
+.projects h2 {
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    font-style: bold;
+}
+
+/* popup sub subtitles */
+.projects h4 {
+    font-size: 10px;
+    font-family: 'Handlee', cursive;
+    font-style: italic;
+}
+
+/* popup description */
+.popup-content {
+    font-size: 15px;
+    font-family: 'PT Serif', serif;
+}
+
+.projects a {
+    font-size: 15px;
+    font-family: 'PT Serif', serif;
+}
+
+/* Cover Photo */
+.projects {
+    justify-content: center;
+    text-align: center;
+}
+.ProjectCover {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+  float: center;
+  align-items: center;
+  height: 600px;
+  
+
+  /* 
+  width: 75;
+  margin-top: 100px;*/
+  
+}
+  /* filter: drop-shadow(16px 16px 10px #c5c5c5);*/
+
+  .project_box {
+    background-color: #FFFCFC;
+    font-size: 30px;
+    text-align: center;
+    margin: 5%;
+    box-shadow: 0 4px 8px 0 #236087, 0 6px 20px 0 #236087;
+    width: 500px;
+    height: 350px;
+  }
+
+  .project_holder {
+    display: grid;
+    /* how many boxes in a row */
+    grid-template-columns: 1fr 1fr;
+    padding-left: 155px;
+    padding-right: 190px;
+    padding-top: 600px;
+    grid-gap: 60px;
+  }
+
+  .project-holder {
+    display: grid;
+    /* how many boxes in a row */
+    grid-template-columns: 1fr 1fr;
+    background-color: #BBF1F1;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+
+
+/* Pop up!! */
+
+.popup-descriptions {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+    overflow-y: scroll;
+  }
+  .popup-descriptions:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  /* screen */
+  .popupFunction {
+    margin:  auto;
+    background: #FFFCFC;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    scroll-behavior: smooth; 
+    transition: all 2s ease-in-out;
+  }
+
+
+  .popupFunction .close-popup {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFCFC;
+    z-index: 100;
+  }
+
+  .popupFunction .popup-content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  /* Pop up!! */
+
+  /* Each project cover photo */
+  .ProjectPhoto {
+    width: 50%;
+    height: 50%;
+  }
+
+  /* each project cover photo (phone) */
+  .ProjectPhotoPhone {
+    width: 25%;
+    height: 60%;
+  }
+
+  /* 2. PLANK - image holder */
+  .project2_holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #FFFCFC;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* 3. Stars - image holder */
+  .project3_holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #FFFCFC;
+    text-align: center;
+  }
+
+  .StarsImages {
+    width: 80%;
+    height: 100%;
+  }
+
+  .PlankImages {
+    width: 80%;
+    height: 80%;
+  }
+
+  /* Farmer's Photo Size (UC) */
+  .FarmerImages {
+    width: 80%;
+    height: 80%;
+  }
+
+  /* design process image + divs */
+  .designProcess {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    height: 180px;
+    justify-content: center;
+  
+  }
+  
+  .designProcess div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid #BBF1F1;
+    text-align: center;
+    font-size: 15px;
+    width: 110px;
+    border-radius: 25px;
+  }
+
+  .projects h6 {
+    color:#333;
+  }
+
+/* right arrow*/
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+.stars_popup_pic {
+    width: 100%;
+    height: 100%;
+    background-image: repeat;
+    filter: blur(1px);
+    background-size: cover;
+    z-index: -5;
+    background-attachment: fixed;
+    
+}
+
+
+.stars_banner {
+  background: url(Images/STARS_CoverPhoto.png) no-repeat;
+  background-size: cover;
+  z-index: -5;
+  background-attachment: fixed;
+}
+
+.banner {
+  background-image: url(Images/STARS_CoverPhoto.png);
+  background-position: 50% 50%;
+}
+
+
+/*---------------------------------------------------------------- RESUME PAGE ----------------------------------------------------------------*/
+
+/* Resume Page */
+.resume2 {
+    background: url(Images/Fish2.png) no-repeat;
+    background-size: cover;
+    z-index: -5;
+    background-attachment: fixed;
+}
+
+/* Section titles */
+.contact2 h1 {
+  padding-left: 405px;
+  padding-bottom: 25px;
+  font-size:25px;
+  font-family: 'Handlee';
+  color: #f2f2f2;
+}
+
+/* Form Container Grid */
+.ResumeContainer1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #f2f2f2;
+  padding-bottom: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+  box-shadow: 0 4px 8px 0 #236087, 0 6px 20px 0 #236087;
+  height:350px;
+
+}
+.form2 {
+  width: 500px;
+}
+
+
+
+.resumeHeaders {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50px;
+  margin-left: 850px;
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+/* --------------------------------------------- Project2 --------------------------------------------- */
+.project_banner {
+  width:100%;
+  height:805px;
+  
+}
+
+.proj_holder  {
+  height: 1500px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 160px;
+  padding-right: 160px;
+  grid-gap: 60px;
+  place-items: center;
+
+  /*
+  background-color: #FFFCFC;
+  font-size: 30px;
+  text-align: center;
+  margin: 5%;
+  box-shadow: 0 4px 8px 0 #236087, 0 6px 20px 0 #236087;
+  width: 500px;
+  height: 350px;
+  */
+}
+
+.proj_container {
+  width: 469px;
+  height: 319px;
+  
+}
+
+.proj_container_cover {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.label-div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  padding: 3px 10px;
+  clear: left;
+  border-radius: 5px;
+  background-color: rgba(40, 172, 71, 0.283);
+  font-family: 'open sans', 'serif';
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 1900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.line {
+  display: block;
+  height: 1px;
+  margin: 50px 0px 50px 0px;
+  background-color: rgba(24, 26, 39, 0.149);
+}
+
+.popupIntro {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.popupFunction_body {
+  padding: 100px 350px 100px 350px;
+  letter-spacing: 1px;
+}
+
+.popupFunction_body h2 {
+  font-family: 'handlee','cursive';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.popupFunction_body h13 {
+  font-family: 'Open sans','serif';
+  font-size: 17px;
+  font-weight: 900;
+  font-weight: 900;
+  font-weight: 'bolder';
+}
+
+.popupFunction_body h19 {
+  position: absolute;
+  top: 90px;
+  left: 10%;
+  font-family: 'Eb garamond';
+  color: #f2f2f2;
+  font-size: 10px;
+}
+
+.popupFunction_body h20 {
+  position: absolute;
+  top: 50px;
+  right: 50%;
+  font-family: 'Eb garamond';
+  color: #f2f2f2;
+  font-size: 50px;
+}
+
+.popupFunction_body h21 {
+  font-family: 'Handlee', 'curisve';
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.popupFunction_body p {
+  font-family: 'Open sans','serif';
+  font-size: 17px;
+  font-weight: 500;
+  font-weight: 'bolder';
+}
+
+.popupFunction_body p5 {
+  font-family: 'Open sans','serif';
+  font-size: 17px;
+  font-weight: 900px;
+}
+
+.popupFunction_body p9 {
+  font-family: 'Open sans','serif';
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.popupFunction_body h18 {
+  position: absolute;
+  top: 90px;
+  right: 50%;
+  font-family: 'Eb garamond';
+  color: #f2f2f2;
+  font-size: 5px;
+}
+
+
+.popupFunction_body p21 {
+  font-family: 'Open sans','serif';
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.project1_holder {
+  display: grid;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #FFFCFC;
+  padding: 10px;
+  text-align: center;
+}
+
+.popup_farmerBanner {
+  width: 100%;
+  height: 825px;
+  background-image: repeat;
+  background-size: cover;
+  z-index: -5;
+  background-attachment: fixed;
+
+}
+
+.popup_title_farmer {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #f2f2f2;
+  font-family:'EB Garamond';
+
+}
+
+.top-right {
+  position: absolute;
+  top: 2%;
+  bottom: 2%;
+  left: 15%;
+  font-family: 'Eb garamond';
+  color: #f2f2f2;
+  font-size: 50px;
+}
+
+.top-right h20 {
+  display: inline-block; /* make the heading element an inline-block element */
+  margin: 0 auto; /* center the inline-block element horizontally */
+}
+
+.farmer_banner_content {
+  position: absolute;
+  top: 200px;
+  right: 10%;
+  font-family: 'Eb garamond';
+  color: #f2f2f2;
+  font-size: 23px;
+}
+
+.long-dash {
+  border-style: solid;
+  border-width: 1px; /* adjust the width as needed */
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.uc_diagram_farmers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 0px;
+}
+
+.farmers_uc_diagram {
+  height: 100%;
+  width: 100%;
+  background-color: #236087;
+}
+
+.farmer_uc_description {
+  padding: 90px 10px 0px 10px;
+  text-align: center;
+}
+
+.farmers_mockup {
+  height: 70%;
+  width: 80%;
+}
+
+.farmers_mockupFinal {
+  height: 100%;
+  width: 100%;
+}
+
+.footericons {
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+
+
+
+  
+
+  
+ 
+  
+
