@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -806,6 +807,22 @@ footer {
   margin-bottom: 10px;
 }
 
+.label2 {
+  display: block;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  padding: 3px 10px;
+  clear: left;
+  border-radius: 5px;
+  background-color: rgba(47, 129, 196, 0.283);
+  font-family: 'open sans', 'serif';
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 1900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 .label {
   display: block;
   margin-right: 8px;
@@ -978,6 +995,26 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 0px;
+}
+
+.uc_diagram_plank {
+  display: grid;
+  height: 450px;
+}
+
+.plank_customerJourney {
+  height:40%;
+  width:40%;
+}
+
+.plank_uc_diagram {
+  height:60%;
+  width:40%;
+}
+
+.plank_siteMap {
+  width:100%;
+  height:100%; 
 }
 
 .farmers_uc_diagram {
