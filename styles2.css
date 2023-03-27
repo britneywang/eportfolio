@@ -140,6 +140,7 @@ nav ul li {
 
 body {
     background:#0b1d2a;
+    margin: 0;
 }
 
 .coverImage {
@@ -161,7 +162,7 @@ body {
     background-color: #192227;
     padding-left: 75px;
     padding-right: 50px;
-    height: 1000px;
+    height: 600px;
     
 }
 
@@ -517,7 +518,7 @@ body {
     /* how many boxes in a row */
     grid-template-columns: 1fr 1fr;
     background-color: #859FB4;
-    padding: 220px 0px 0px 250px;
+    padding: 130px 0px 0px 250px;
     height: 1000px;
 }
 
@@ -565,10 +566,12 @@ body {
 
 
 .about_image {
+    padding-top: 100px;
     height: 400px;
     width: 350px;
-    background-color: white;
+    background-color: #859FB4;
     margin-left: 50px;
+    
 }
 
 .profile {
@@ -584,7 +587,8 @@ body {
     background-color: #859FB4;
     padding: 250px 400px 0px 400px;
     text-align: center;
-    height: 1000px;
+    height: 570px;
+
     
 }
     .contact_info h1 {
@@ -602,10 +606,17 @@ body {
         color: #F6F8FA;
         font-size: 20px;
     }
+
+    .contact_info h3 {
+        color: black;
+        font-size: 50px;
+    }
+
+
     .fa {
-        padding: 20px;
-        font-size: 10px;
-        width: 50px;
+        padding: 0px;
+        font-size: 100px;
+        width: 150px;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
@@ -619,7 +630,6 @@ body {
 
       
       .fa-linkedin {
-      
         color: black;
       }
       
